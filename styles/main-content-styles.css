@@ -1,0 +1,100 @@
+.body-wrapper { 
+    width: 100%; 
+    height: 500px; 
+    background-color: rgb(40, 42, 48); 
+    color: #dad8d8; 
+    display: grid; 
+    grid-template-columns: 750px auto; 
+}
+
+.body-wrapper > .main-content { 
+    width: 650px; 
+    padding: 60px 50px; 
+}
+
+.body-wrapper > .main-content > .intro-text > .first-line { 
+    line-height: 1.15; 
+    font-size: 2.5em; 
+    font-weight: 300; 
+}
+
+.body-wrapper > .main-content > .intro-text > .second-line { 
+    line-height: 1.25; 
+    font-size: 2em; 
+    font-weight: 300; 
+    padding: 20px 0px; 
+    color: #a7a7a7; 
+}
+
+.body-wrapper > .main-content > .main-buttons { 
+    display: grid; 
+    grid-template-columns: auto auto; 
+    justify-content: left; 
+    align-items: center; 
+    column-gap: 20px; 
+}
+
+.body-wrapper > .main-content > .main-buttons  > .button { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.body-wrapper > .main-content > .main-buttons  > .button > .sign-up { 
+    color: #000000; 
+    background-color: rgb(1, 212, 115); 
+    border: none; 
+    border-radius: 3px; 
+    width: 225px; 
+    height: 60px; 
+    font-size: 1.5em; 
+}
+
+.body-wrapper > .main-content > .main-buttons  > .button > .learn-more{ 
+    color: #ffffff; 
+    background-color: #000000; 
+    border: none; 
+    border-radius: 3px; 
+    width: 175px; 
+    height: 60px; 
+    font-size: 1.5em; 
+}
+
+.body-wrapper > .content-wrapper > .buttons-wrapper > .button-wrapper > .sign-up-free:focus {
+    outline: none;
+}
+
+.body-wrapper > .content-wrapper > .buttons-wrapper > .button-wrapper > .learn-more:focus { 
+    outline: none; 
+}
+
+.body-wrapper > .page-preview { 
+    padding-top: 60px; 
+    height: 350px; 
+}
+
+.body-wrapper > .page-preview > .page-preview-title { 
+    padding-left: 10px; 
+    color: white;
+}
+
+
+.body-wrapper > .page-preview > .page-img { 
+    width: 100%;
+    height: 100%;
+    padding-top: 8px; 
+}
+
+.body-wrapper > .page-preview > .page-img > .page-preview-img { 
+    margin-left: 8px; 
+    width: fit-content; 
+    padding: 0px; 
+    box-shadow: -5px 5px 3px 0px #00000033; 
+}
+
+.body-wrapper > .page-preview > .page-img > .page-preview-img img { 
+    width: auto; 
+    height: 406px; 
+    max-height: 100%; 
+    margin-bottom: -4px; 
+}

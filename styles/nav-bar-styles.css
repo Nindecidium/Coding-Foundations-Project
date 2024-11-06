@@ -1,0 +1,134 @@
+.nav-bar { 
+  height: 60px; 
+  padding-left: 5px; 
+  background-color: #000000; 
+  color: #ffffff; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.nav-bar > .left-column { 
+  width: 550px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.nav-bar > .left-column > .logo { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.nav-bar > .left-column > .logo img { 
+  width: 130px; 
+  height: auto; 
+}
+
+.nav-bar > .left-column > .navegation { 
+  display: grid; 
+  grid-template-columns: 1fr; 
+  row-gap: 2px; 
+  justify-content: left; 
+  align-items: center; 
+  width: 300px; 
+  height: 60px;
+}
+
+.nav-bar > .left-column > .navegation > .explore { 
+  font-size: .9em; 
+  color: #f0e478; 
+  display: flex;
+  align-content: end;
+  padding-top: 15px;
+}
+
+.nav-bar > .left-column > .navegation > .explore p{
+  margin: 0px;
+}
+
+.nav-bar > .left-column > .navegation> .navegation-links{ 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding-bottom: 10px;
+}
+
+.nav-bar > .left-column > .navegation > .navegation-links a{ 
+  text-decoration: none; 
+  color: #ffffff; 
+  font-weight: 600; 
+  transition: 0.5s; 
+}
+
+.nav-bar > .left-column > .spark-wrapper { 
+  color: #a5a0a5; 
+  width: 60px; 
+  height: 60px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-end; 
+  padding-bottom: 10px;
+}
+.nav-bar > .left-column > .spark-wrapper > .down-arrow i { 
+  font-size: 0.8em; 
+}
+
+.nav-bar > .right-column { 
+  padding-right: 10px; 
+  padding-left: 10px; 
+  width: 400px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.nav-bar > .right-column > .top-button { 
+  width: 100px; 
+  height: 48px; 
+  padding: 5px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: #ffffff; 
+  font-size: 1.1em; 
+  background-color: rgb(55, 56, 63); 
+  border: none; 
+  border-radius: 3px; 
+}
+
+.nav-bar > .right-column > .top-button > .down-arrow { 
+  padding-left: 8px; 
+  padding-top: 3px; 
+  align-self: center; 
+  font-size: 1em; 
+  color: rgb(1, 212, 115); 
+}
+
+.nav-bar > .right-column > .icon { 
+  width: 50px; 
+  height: 48px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: rgb(122, 124, 140); 
+  font-weight: 500; 
+  font-size: 2em; 
+  background-color: transparent; 
+  border: none; 
+  border-radius: 3px; 
+}
+
+.nav-bar > .right-column > .top-button:focus { 
+  outline: none; 
+}
+
+.nav-bar > .right-column > .top-button:hover { 
+  background-color: #807f7f; 
+}
+
+.nav-bar > .right-column > .icon:hover { 
+  color: #8a8989; 
+}
+
