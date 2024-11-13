@@ -71,6 +71,8 @@
 .body-wrapper > .page-preview { 
     padding-top: 60px; 
     height: 350px; 
+    position: absolute;
+    right: 0px;
 }
 
 .body-wrapper > .page-preview > .page-preview-title { 
